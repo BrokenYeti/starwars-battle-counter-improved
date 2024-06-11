@@ -1,0 +1,86 @@
+@font-face {
+    src: url(fonts/Starjout.ttf);
+    font-family: starjedi;
+}
+
+body {
+    background-color: black;
+    font-family: starjedi;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: inherit;
+    border: 2px solid black;
+    
+}
+
+#rebel-btn {
+    background: darkblue;
+}
+
+#empire-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#btns-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.counter-bdy{
+    max-width: 800px;
+    margin: auto;
+    border: 5px single rgb(255, 255, 255);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    
+}
+
+#rebel-div {
+    background-image: url(images/rebels.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    border: 3px double red;
+    
+    
+}
+
+#empire-div {
+    background-image: url(images/empire.png);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    border: 3px double red;
+}

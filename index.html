@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Star Wars Battle Counter:</h1>
+        <div class="counter-bdy">
+            
+            <div id="rebel-div">
+                <h2>Rebels</h2>
+                <h2 id="rebCount-el">0</h2>
+                <div id="btns-div">
+                    <button id="rebel-btn" onclick="rebelIncrement()">Tie Fighter</button>
+                    <button id="rebel-btn" onclick="rebelIncrementSd()">Star Destroyer</button>
+                    <button id="rebel-btn" onclick="rebelIncrementDs()">Death Star</button>
+                </div>                
+            </div>
+
+            <div id="empire-div">
+                <h2>Empire</h2>
+                <h2 id="empCount-el">0</h2>
+                <div id="btns-div">
+                    <button id="empire-btn" onclick="empireIncrement()">X-wing Fighter</button> 
+                    <button id="empire-btn" onclick="empireIncrementRc()">Rebel Cruiser</button> 
+                    <button id="empire-btn" onclick="empireIncrementRb()">Rebel Base</button> 
+                </div>                
+            </div>
+            
+        </div>
+            <div>
+                <button id="save-btn" onclick="save()">RESET</button>
+                <!-- <p id="save-el">The Winner Is: </p> -->
+            </div>
+        <script src="index.js">
+            nnerText
+        </script>
+    </body>
+</html>
